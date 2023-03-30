@@ -5,7 +5,7 @@ This repository contains a collection of React examples sourced from the officia
 To get started, clone this repository to your local machine using:
 
 ``` sh
-git clone https://github.com/your-username/react-examples.git
+git clone https://github.com/anindosarker/react-documentation-examples.git
 ```
 Then, navigate to the project directory and install the necessary dependencies using Yarn:
 
@@ -26,6 +26,7 @@ Contributions are welcome and encouraged! If you'd like to add an example, pleas
 
 1. Fork this repository to your GitHub account.
 1. Create a new branch in your forked repository with a descriptive name for your example.
+1. Swtich to your new branch.
 1. Create a new directory in the examples folder with a descriptive name for your example.
 1. Add your React code and any necessary dependencies to the directory.
 1. Create a new file called README.md in your example directory and describe what your example does and how it works.
