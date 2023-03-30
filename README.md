@@ -29,7 +29,11 @@ The following examples are currently available:
 # Contributing
 Contributions are welcome and encouraged! If you'd like to add an example, please follow these steps:
 
+1. Fork this repository to your GitHub account.
+1. Create a new branch in your forked repository with a descriptive name for your example.
 1. Create a new directory in the examples folder with a descriptive name for your example.
-2. Add your React code and any necessary dependencies to the directory.
-3. Create a new file called README.md in your example directory and describe what your example does and how it works.
-4. Add your example to the list in the main README.md file with a brief description and a link to your example directory.
+1. Add your React code and any necessary dependencies to the directory.
+1. Create a new file called README.md in your example directory and describe what your example does and how it works.
+1. Add your example to the list in the main README.md file with a brief description and a link to your example directory.
+1. Commit your changes and push them to your forked repository.
+1. Open a pull request to the main repository.
