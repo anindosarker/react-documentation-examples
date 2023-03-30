@@ -21,11 +21,6 @@ yarn dev
 
 This will start a local development server at http://localhost:5173/ where you can view the examples in your browser.
 
-# Available Examples
-The following examples are currently available:
-- [Lifting State Up](https://github.com/anindosarker/react-documentation-examples/tree/main/examples/LiftingStateUp)
-- [TicTacToe](https://github.com/anindosarker/react-documentation-examples/tree/main/examples/TickTacToe)
-
 # Contributing
 Contributions are welcome and encouraged! If you'd like to add an example, please follow these steps:
 
@@ -37,3 +32,9 @@ Contributions are welcome and encouraged! If you'd like to add an example, pleas
 1. Add your example to the list in the main README.md file with a brief description and a link to your example directory.
 1. Commit your changes and push them to your forked repository.
 1. Open a pull request to the main repository.
+
+
+# Available Examples
+The following examples are currently available:
+- [Lifting State Up](https://github.com/anindosarker/react-documentation-examples/tree/main/examples/LiftingStateUp)
+- [TicTacToe](https://github.com/anindosarker/react-documentation-examples/tree/main/examples/TickTacToe)
