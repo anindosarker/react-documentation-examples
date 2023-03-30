@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import MyButton from "./MyButton";
 
-export default function Ch1() {
+export default function LiftingStateUp() {
   const [count, setCount] = useState(0);
 
   function handleClick() {
