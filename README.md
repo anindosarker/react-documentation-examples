@@ -1,6 +1,10 @@
 # React Examples
 
-This repository contains a collection of React examples sourced from the official React documentation. The examples are stored in the examples folder and cover a wide range of React concepts, from basic rendering to complex state management and data fetching.
+This repository contains a collection of React examples for learning react. A lot of the examples are sourced from the official [React Documentation](https://www.react.dev). 
+
+The examples are stored in separate folders and cover a wide range of React concepts, from basic rendering to complex state management and data fetching.
+
+I'm planning to add more examples in the future. If you have any suggestions, please feel free to open an issue or a pull request. 😀
 
 # Getting Started
 
