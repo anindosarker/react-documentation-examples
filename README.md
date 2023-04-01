@@ -1,41 +1,92 @@
 # React Examples
+
 This repository contains a collection of React examples sourced from the official React documentation. The examples are stored in the examples folder and cover a wide range of React concepts, from basic rendering to complex state management and data fetching.
 
 # Getting Started
-To get started, clone this repository to your local machine using:
 
-``` sh
-git clone https://github.com/anindosarker/react-documentation-examples.git
-```
-Then, navigate to the project directory and install the necessary dependencies using Yarn:
+1. To get started, clone this repository to your local machine using:
 
-```sh
-cd react-examples
-yarn
-```
-Once the dependencies are installed, you can run the development server using:
+   ```sh
+   git clone https://github.com/anindosarker/react-examples.git
+   ```
 
-```sh
-yarn dev
-```
+1. Navigate to the project directory:
 
-This will start a local development server at http://localhost:5173/ where you can view the examples in your browser.
+   ```sh
+   cd react-examples
+   ```
+
+1. Navigate to any example directory and install the necessary dependencies using Yarn. For example:
+
+   ```
+   cd TicTacToe
+   yarn
+   ```
+
+   Once the dependencies are installed, you can run the development server using:
+
+   ```sh
+   yarn dev
+   ```
+
+   This will start a local development server at http://localhost:5173/ where you can view the examples in your browser.
+
+1. Repeat step 3 for any other examples you'd like to run. 😀
 
 # Contributing
+
 Contributions are welcome and encouraged! If you'd like to add an example, please follow these steps:
 
 1. Fork this repository to your GitHub account.
 1. Create a new branch in your forked repository with a descriptive name for your example.
+   ```
+   git branch NewExample
+   ```
 1. Swtich to your new branch.
-1. Create a new directory in the examples folder with a descriptive name for your example.
+   ```
+   git checkout NewExample
+   ```
+1. Create a new directory with a descriptive name for your example. For example:
+   ```sh
+   mkdir NewExample
+   ```
+   Every folder should be a new react project, sepeartly runnable. The file structer should look like this:
+   ```
+   react-examples
+    ├── LiftingStateUp
+    │   ├── ...code here
+    |   └── README.md
+    ├── TicTacToe
+    │   ├── ...code here
+    |   └── README.md
+    ├── NewExample
+    │   ├── ...code here
+    |   └── README.md
+    └── README.md
+   ```
 1. Add your React code and any necessary dependencies to the directory.
 1. Create a new file called README.md in your example directory and describe what your example does and how it works.
-1. Add your example to the list in the main README.md file with a brief description and a link to your example directory.
-1. Commit your changes and push them to your forked repository.
+    ```
+    NewExample
+    ├── ...code here
+    └── README.md
+    ```
+1. Add your example to the list in the main README.md file in the [Available Examples](https://github.com/anindosarker/react-examples/blob/f46b454c0184342ffbc1648daf31b4f7a86bbbfb/README.md#available-examples) section with a brief description and a link to your example directory.
+    ```md
+    - [NewExample](https://github.com/anindosarker/react-examples/tree/main/NewExample)
+    ```
+1. Commit your changes and push them to your forked repository. Use a meaningful commit message.
+
+    ```sh
+    git add .
+    git commit -m "Added NewExample"
+    git push origin NewExample
+    ```
 1. Open a pull request to the main repository.
 
-
 # Available Examples
+
 The following examples are currently available:
-- [Lifting State Up](https://github.com/anindosarker/react-documentation-examples/tree/main/examples/LiftingStateUp)
-- [TicTacToe](https://github.com/anindosarker/react-documentation-examples/tree/main/examples/TickTacToe)
+
+- [Lifting State Up](https://github.com/anindosarker/react-documentation-examples/tree/main/LiftingStateUp)
+- [TicTacToe](https://github.com/anindosarker/react-documentation-examples/tree/main/TickTacToe)
